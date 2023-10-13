@@ -6,10 +6,7 @@ import './App.css';
 import AddTodoForm from './Components/AddTodoForm';
 import TodoItem from './Components/TodoItem';
 
-// export interface Task {
-//     id:number;
-//     text: string;
-// }
+
 function App() {
   const todos = useSelector((state: RootState) => state.todos);
   const dispatch = useDispatch()
